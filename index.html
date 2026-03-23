@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StyleNest - Premium Fashion E-Commerce</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <a href="index.html" class="logo">
+        <span>Style</span><span class="logo-accent">Nest</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="mens.html" class="nav-link">Men's</a>
+        <a href="womens.html" class="nav-link">Women's</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="cart-counter">0</span>
+        </button>
+
+        <button class="mobile-menu-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="mens.html" class="nav-link">Men's</a>
+      <a href="womens.html" class="nav-link">Women's</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1>Elevate Your Style</h1>
+          <p>
+            Discover the latest trends in streetwear and high-fashion. 
+            Premium quality, curated collections for the modern fashionista.
+          </p>
+          <a href="mens.html" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1768084356884-22bb77e76931?w=800" alt="Fashion Model">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trendy Highlights -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Trendy Highlights</h2>
+        <a href="mens.html" class="section-link">
+          View All
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+      </div>
+      <div class="product-grid" id="trending-products"></div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Why Choose Us</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="3" width="15" height="13"/>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+              <circle cx="5.5" cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Fast Shipping</h3>
+          <p class="feature-description">Get your order delivered within 2-3 business days</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="8" r="7"/>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Premium Quality</h3>
+          <p class="feature-description">All products are carefully selected for superior quality</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">24/7 Support</h3>
+          <p class="feature-description">Our team is always here to help you with any questions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Men's Latest Collection -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Men's Latest Collection</h2>
+        <a href="mens.html" class="section-link">
+          View All
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+      </div>
+      <div class="product-grid" id="mens-products"></div>
+    </div>
+  </section>
+
+  <!-- Women's Latest Collection -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Women's Latest Collection</h2>
+        <a href="womens.html" class="section-link">
+          View All
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+      </div>
+      <div class="product-grid" id="womens-products"></div>
+    </div>
+  </section>
+
+  <!-- Promo Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="promo-banner" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1761470744784-3e1ab858ab5d?w=1200');">
+        <div class="promo-content">
+          <h2>Flash Sale: 40% Off</h2>
+          <p>Limited time offer on selected items</p>
+          <a href="mens.html" class="btn-primary">Claim Offer</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title" style="margin-bottom: 2rem;">Style Journal</h2>
+      <div class="blog-grid" id="blog-posts"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3 class="footer-logo">
+            <span>Style</span><span class="logo-accent">Nest</span>
+          </h3>
+          <p>40 E 7th St<br>New York, NY 10003, USA</p>
+          <p>Phone: +1-728-009-8383</p>
+          <p>Email: care@stylenest.in</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="mens.html">Men's Collection</a>
+          <a href="womens.html">Women's Collection</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <a href="terms-conditions.html">Terms & Conditions</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="return-refund-policy.html">Return & Refund Policy</a>
+          
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 StyleNest. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer Overlay -->
+  <div class="cart-overlay"></div>
+
+  <!-- Cart Drawer -->
+  <div class="cart-drawer">
+    <div class="cart-drawer-header">
+      <div>
+        <h2 class="cart-drawer-title">Shopping Cart</h2>
+        <p class="cart-drawer-subtitle">Review your items and proceed to checkout</p>
+      </div>
+      <button class="cart-drawer-close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-drawer-content"></div>
+  </div>
+
+  <script src="products.js"></script>
+  <script src="main.js"></script>
+  <script>
+    // Render products on home page
+    document.addEventListener('DOMContentLoaded', function() {
+      // Render trending products (4 items)
+      const trendingContainer = document.getElementById('trending-products');
+      if (trendingContainer) {
+        trendingContainer.innerHTML = trendingProducts.map(product => renderProductCard(product)).join('');
+      }
+
+      // Render men's products (first 6 items)
+      const mensContainer = document.getElementById('mens-products');
+      if (mensContainer) {
+        mensContainer.innerHTML = mensProducts.slice(0, 6).map(product => renderProductCard(product)).join('');
+      }
+
+      // Render women's products (first 6 items)
+      const womensContainer = document.getElementById('womens-products');
+      if (womensContainer) {
+        womensContainer.innerHTML = womensProducts.slice(0, 6).map(product => renderProductCard(product)).join('');
+      }
+
+      // Render blog posts
+      const blogContainer = document.getElementById('blog-posts');
+      if (blogContainer) {
+        blogContainer.innerHTML = blogPosts.map(post => `
+          <div class="blog-card">
+            <img src="${post.image}" alt="${post.title}" class="blog-image">
+            <div class="blog-content">
+              <p class="blog-date">${post.date}</p>
+              <h3 class="blog-title">${post.title}</h3>
+              <p class="blog-excerpt">${post.excerpt}</p>
+              <a href="#" class="blog-link">
+                Read More
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        `).join('');
+      }
+    });
+  </script>
+</body>
+</html>
